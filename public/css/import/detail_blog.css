@@ -1,0 +1,172 @@
+/*DETAIL BLOG*/
+
+.detail-blog-page .main-content {
+    background: #fff;
+    padding: 20px 15px;
+}
+
+.detail-blog-page #selling-wp {
+    margin-top: 0;
+}
+
+.detail-blog-page #social-wp {
+    margin-top: 25px;
+}
+
+#detail-blog-wp .section-title {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    font-family: "Roboto Regular";
+    padding-bottom: 10px;
+}
+
+#detail-blog-wp .create-date {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: #989898;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#detail-blog-wp .create-date:before {
+    position: absolute;
+    content: '\f017';
+    font-family: 'FontAwesome';
+    top: 0;
+    left: 0;
+    font-size: 14px;
+}
+
+#detail-blog-wp .desc {
+    color: #6b6b6b;
+    line-height: 26px;
+}
+
+#detail-blog-wp .detail p {
+    color: #555;
+    line-height: 28px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+#detail-blog-wp .detail p strong {
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    color: #333;
+}
+
+#detail-blog-wp .detail p img {
+    margin: 5px 0px;
+    border: 1px solid #D2D2D2;
+    display: inline-block;
+}
+
+#list-related-wp .item-wp {
+    padding: 0px 10px;
+}
+
+#list-related-wp .item-wp .info a {
+    display: block;
+    color: #222;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    padding-top: 10px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#list-related-wp {
+    position: relative;
+}
+
+#list-related-wp .owl-controls .owl-buttons div {
+    position: absolute;
+    top: 65px;
+    width: 30px;
+    height: 50px;
+    background: #fff;
+    line-height: normal;
+    border: 1px solid #cacaca;
+}
+
+#list-related-wp .owl-controls .owl-buttons div.owl-prev {
+    left: 0;
+}
+
+#list-related-wp .owl-controls .owl-buttons div.owl-next {
+    right: 0;
+}
+
+#list-related-wp .owl-controls .owl-buttons div:before {
+    position: absolute;
+    content: '\f104';
+    font-family: 'Fontawesome';
+    font-size: 18px;
+    color: #222;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#list-related-wp .owl-controls .owl-buttons div.owl-next:before {
+    content: '\f105';
+}
+
+#list-related-wp {
+    padding-top: 50px;
+}
+
+#post-product-wp {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dtcvmodetail,
+.dtchide {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 130px;
+    padding-top: 80px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .91) 55%, rgba(255, 255, 255, 1) 60%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(55%, rgba(255, 255, 255, .91)), color-stop(60%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .91) 55%, rgba(255, 255, 255, 1) 60%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .91) 55%, rgba(255, 255, 255, 1) 60%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .91) 55%, rgba(255, 255, 255, 1) 60%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .91) 55%, rgba(255, 255, 255, 1) 60%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+}
+
+.dtshow {
+    height: auto!important;
+    padding-bottom: 80px;
+}
+
+.dtcvmodetail span i,
+.dtchide span i {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 0;
+    position: relative;
+    top: 2px;
+    color: #3d3d3d;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
